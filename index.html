@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An self assessment for HTML, CSS and JavaScript."
+    />
+    <meta name="author" content="Yixiang Xie" />
+    <title>HTML CSS JS Self Assessment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="https://yixiangxie-neu.github.io">
+          Yixiang Xie’s Personal Homepage
+        </a>
+      </nav>
+    </header>
+
+    <section>
+      <h1>HTML CSS JavaScript Self Assessment</h1>
+    </section>
+
+    <section>
+      <h2>10 Most Useful Tags</h2>
+      <ol>
+        <li>&lt;div&gt;</li>
+        <li>&lt;span&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;a&gt;</li>
+        <li>&lt;img&gt;</li>
+        <li>&lt;h1&gt; - &lt;h6&gt;</li>
+        <li>&lt;ol&gt;, &lt;ul&gt;, &lt;li&gt;</li>
+        <li>&lt;br&gt;</li>
+        <li>&lt;hr&gt;</li>
+        <li>&lt;i&gt;, &lt;b&gt;</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>The Most Important Tags to Add for SEO</h2>
+      <ol>
+        <li>One and only one &lt;h1&gt; tag.</li>
+        <li>
+          Keyword-optimized &lt;h2&gt; tags with answers directly below within
+          &lt;p&gt; tags.
+        </li>
+        <li>
+          Structured &lt;h2&gt; tags and &lt;h3&gt; tags for subheadings, and
+          &lt;h3&gt; tags - &lt;h6&gt; tags for further structure within
+          subsections.
+        </li>
+        <li>
+          &lt;title&gt; tags for clickable headlines in search engine results.
+        </li>
+        <li>&lt;img&gt; tags with alt text for better image indexes.</li>
+        <li>
+          Semantic tags such as &lt;article&gt;, &lt;section&gt;, &lt;aside&gt;,
+          &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;
+        </li>
+        <li>
+          Canonical &lt;link&gt; tag to tell search engines the specific URL
+          representing the master copy of the page.
+        </li>
+        <li>
+          &lt;meta&gt; robot tags to tell the rules of engagement between
+          websites and the search engines.
+        </li>
+        <li>
+          &lt;meta&gt; description tags set up descriptions within search result
+          snippets.
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>3x3 Layout with Only Divs and Spans</h2>
+      <div class="grid">
+        <div><span>foo</span><span>foo</span><span>foo</span></div>
+        <div><span>foo</span><span>foo</span><span>foo</span></div>
+        <div><span>foo</span><span>foo</span><span>foo</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>CSS Showcases</h2>
+      <div>
+        <h3>Box Model Options</h3>
+        <div>
+          <h4>Changing Border Values: 0px, 5px, 10px</h4>
+          <div class="box borderExample">
+            <div class="divContainer">
+              <div class="div1"></div>
+            </div>
+            <div class="divContainer">
+              <div class="div2"></div>
+            </div>
+            <div class="divContainer">
+              <div class="div3"></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>Changing Margin Values: 0px, 5px, 10px</h4>
+          <div class="box marginExample">
+            <div class="divContainer">
+              <div class="div1"></div>
+            </div>
+            <div class="divContainer">
+              <div class="div2"></div>
+            </div>
+            <div class="divContainer">
+              <div class="div3"></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>Changing Padding Values: 0px, 5px, 10px</h4>
+          <div class="box paddingExample">
+            <div class="divContainer">
+              <div class="div1"></div>
+            </div>
+            <div class="divContainer">
+              <div class="div2"></div>
+            </div>
+            <div class="divContainer">
+              <div class="div3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Font Sizes with Absolute and Relative Sizes</h3>
+        <ol>
+          <li style="font-size: 20px">Lorem ipsum</li>
+          <li style="font-size: 1.25em">Lorem ipsum</li>
+          <li style="font-size: 1.5rem">Lorem ipsum</li>
+          <li style="font-size: 4vh">Lorem ipsum</li>
+          <li style="font-size: 1.5vw">Lorem ipsum</li>
+          <li style="font-size: 4vb">Lorem ipsum</li>
+        </ol>
+        <div>
+          <p>
+            The first item uses 20px as font size. This is very commonly used if
+            you want to specify absolute sizes.
+          </p>
+          <p>
+            The second item uses 1.25em as font size. This is useful when you
+            want to change size base on parent font size.
+          </p>
+          <p>
+            The third item uses 1.5rem as font size. This is useful when you
+            want to change size base on root font size.
+          </p>
+          <p>
+            The fourth item uses 4vh as font size. This is useful when you want
+            to change sizes base on the webpage height.
+          </p>
+          <p>
+            The fifth item uses 1.5vw as font size. This is useful when you want
+            to change sizes base on the webpage width.
+          </p>
+          <p>
+            The sixth item uses 4vb as font size. This is useful when you want
+            to change sizes base on the containing block width.
+          </p>
+        </div>
+      </div>
+      <div>
+        <h3>Positioning options</h3>
+        <div class="position">
+          <div>
+            <div class="relative"></div>
+            This is relative positioning. It takes its place in the normal flow,
+            but you can modify its final position even to overlap with other
+            elements. This position is useful when you have a position: absolute
+            child and want that to stick to its parent.
+          </div>
+          <div>
+            <div class="absolute"></div>
+            This is absolute positioning. It does not exists in the normal
+            document flow. You can create isolated UI features that don't
+            interfere with the layout of other elements on the page. For
+            example, it is useful when you want to create a tooltip.
+          </div>
+          <div>
+            <div class="fixed" onclick="scrollToTop()">Top</div>
+            This is fixed positioning. It no longer exists in the normal
+            document flow just like absolute positioning. But the difference is
+            that it is located relative to the viewport. This is useful to
+            create things that stays on the webpage no matter where you scroll.
+            For example, a scroll to top element that scrolls the page to the
+            top when you click.
+          </div>
+          <div>
+            This is sticky positioning. It is basically a hybrid between
+            relative and fixed position. It allows a positioned element to act
+            like it's relatively positioned until it's scrolled to a certain
+            threshold, after which it becomes fixed. It is useful to create
+            navbar which scrolls with the page until a certain point and then
+            stick to the top of the page.
+            <div class="sticky"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <small>Yixiang Xie 2022</small>
+    </footer>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
